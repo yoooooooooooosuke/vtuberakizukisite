@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="items-center justify-center p-8 lg:p-16">
+    <main className="items-center justify-center p-4 lg:p-16">
       <div className="z-10 w-full items-center justify-center flex flex-col lg:flex-row">
         <Image
           className="sm-none"
