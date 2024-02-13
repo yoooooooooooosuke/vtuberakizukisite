@@ -6,14 +6,14 @@ import Twitchicon from "../../public/icons8-twitch.svg";
 //<a target="_blank" href="https://icons8.com/icon/phOKFKYpe00C/%E3%83%84%E3%82%A4%E3%83%83%E3%82%BF%E3%83%BCx">ツイッターx</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a>
 export default async function Footer() {
     return(
-        <footer className="py-4 text-center justify-self-end">
+        <footer className="pt-4 text-center justify-self-end">
             <nav className="px-4 mb-2 grid grid-cols-2 lg:flex lg:flex-row w-full items-center justify-evenly">
                 <Link href="/" className="hover:text-white hover:text-border" passHref >Home</Link>
                 <Link href="/about" className="hover:text-white hover:text-border" passHref >About</Link>
                 <Link href="/guideline" className="hover:text-white hover:text-border" passHref >Guideline</Link>
                 <Link href="/contact" className="hover:text-white hover:text-border" passHref >Contact</Link>
             </nav>
-            <nav className="px-4 mb-4 flex w-full items-center justify-evenly">
+            <nav className="px-4 mb-2 flex w-full items-center justify-evenly">
                 <Link href="/" className="hover:text-gray-600 hover:text-border" passHref >
                     <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="30px" className="">
                         <path fill="currentColor" stroke="currentColor" d="M 5.3125 1 L 2 9.8125 L 2 43 L 13 43 L 13 49 L 20.40625 49 L 26.40625 43 L 35.40625 43 L 48 30.4375 L 48 1 Z M 11 6 L 43 6 L 43 28 L 37 34 L 25 34 L 19 40 L 19 34 L 11 34 Z M 20 13 L 20 27 L 26 27 L 26 13 Z M 30 13 L 30 27 L 36 27 L 36 13 Z"/>
@@ -30,7 +30,7 @@ export default async function Footer() {
                     </svg>
                 </Link>
             </nav>
-            <div className="text-xs">
+            <div className="text-xs px-4 mb-2">
                 ©2024 Akizuki powered by GawGawGames
             </div>
         </footer>
